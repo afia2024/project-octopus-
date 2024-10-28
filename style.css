@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+h1 {
+    font-size: 2em;
+    color: black;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.main-image img {
+    width: 80%;
+    height: auto;
+    max-width: 400px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.cybertruck img, .redcar img {
+    width: 80%;
+    height: auto;
+    max-width: 400px;
+    margin: 20px;
+    justify-content: right;
+}
+
+.car-gallery {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
